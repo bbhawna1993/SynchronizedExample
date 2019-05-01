@@ -2,6 +2,7 @@ package com.io.sunchronizedexample;
 
 public class SynchronizedDemo {
 
+	/* two objects make the methods static synchronized*/
 	public static void main(String[] args) {
 		Display d1=new Display();
 		Display d2=new Display();

@@ -2,6 +2,7 @@ package com.io.sunchronizedexample;
 
 public class Display {
 
+	/*Static synchronized because there are 2 threads*/
 	public static synchronized void displayn()
 	{
 		for(int i=1;i<=10;i++)
@@ -12,7 +13,7 @@ public class Display {
 			catch(InterruptedException e){}
 		}
 	}
-
+	/*Static synchronized because there are 2 threads*/
 	public static synchronized void displayc()
 	{
 		for(int i=65;i<=75;i++)
